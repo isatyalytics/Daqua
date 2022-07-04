@@ -1,1 +1,3 @@
-Readme File
+To install the package 
+
+>>> pip install daqua
