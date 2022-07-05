@@ -46,16 +46,3 @@ class Daqua:
     def getQuantileStat(self):
         res = self.meta_info.quantileStat()
         return res
-
-
-        
-
-
-# def main(path):
-#     m = Main()
-#     return m.getDataFrames, m.getMetaData, m.getDetailedMeta, m.getNumericDesc, m.getQuantileStat
-
-
-
-# if __name__=="__main__":
-#     main()
