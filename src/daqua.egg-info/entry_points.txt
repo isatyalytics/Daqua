@@ -1,3 +1,0 @@
-[console_scripts]
-daqua = daqua.main:main
-

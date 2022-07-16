@@ -1,0 +1,22 @@
+************* Module src.data_source_connection.read_flat_file
+src/data_source_connection/read_flat_file.py:44:9: W0511: TODO: Add Exception when file type is not in [CSV, Excel, Json, Pickle and Parquet] (fixme)
+src/data_source_connection/read_flat_file.py:45:9: W0511: TODO: Raise Exception when the file path is not found => File Not Found Error (fixme)
+src/data_source_connection/read_flat_file.py:2:0: C0301: Line too long (115/100) (line-too-long)
+src/data_source_connection/read_flat_file.py:25:0: C0301: Line too long (105/100) (line-too-long)
+src/data_source_connection/read_flat_file.py:50:11: C0103: Attribute name "fileExtension" doesn't conform to snake_case naming style (invalid-name)
+src/data_source_connection/read_flat_file.py:10:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+src/data_source_connection/read_flat_file.py:97:4: C0116: Missing function or method docstring (missing-function-docstring)
+src/data_source_connection/read_flat_file.py:101:4: C0116: Missing function or method docstring (missing-function-docstring)
+src/data_source_connection/read_flat_file.py:104:4: C0116: Missing function or method docstring (missing-function-docstring)
+src/data_source_connection/read_flat_file.py:105:8: C0103: Variable name "df" doesn't conform to snake_case naming style (invalid-name)
+src/data_source_connection/read_flat_file.py:124:4: C0116: Missing function or method docstring (missing-function-docstring)
+src/data_source_connection/read_flat_file.py:128:0: C0115: Missing class docstring (missing-class-docstring)
+src/data_source_connection/read_flat_file.py:128:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+src/data_source_connection/read_flat_file.py:132:0: C0115: Missing class docstring (missing-class-docstring)
+src/data_source_connection/read_flat_file.py:132:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+src/data_source_connection/read_flat_file.py:136:0: C0115: Missing class docstring (missing-class-docstring)
+src/data_source_connection/read_flat_file.py:136:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+
+------------------------------------------------------------------
+Your code has been rated at 5.85/10 (previous run: 5.85/10, +0.00)
+

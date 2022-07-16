@@ -13,12 +13,12 @@ version = "0.0.1.1"
 
 
 setup(
-    name="daqua",
+    name="api",
     version=version,
     author="",
     author_email="",
-    packages=find_packages("src"),
-    package_dir={"": "src"},
+    packages=find_packages("api"),
+    package_dir={"": "api"},
     url="",
     license="MIT",
     description="",
@@ -55,7 +55,7 @@ setup(
     long_description_content_type="text/markdown",
     entry_points={
         "console_scripts": [
-            "daqua = daqua.main:main"
+            "api = api.main:main"
         ]
     },
     options={"bdist_wheel": {"universal": True}},
