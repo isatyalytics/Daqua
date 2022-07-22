@@ -17,8 +17,8 @@ setup(
     name="daqua",
     author="",
     author_email="",
-    packages=find_packages(where="daqua"),
-    package_dir={"": "daqua"},
+    packages=find_packages(where="src"),
+    package_dir={"": "src"},
     url="",
     license="MIT",
     description="",
@@ -55,7 +55,7 @@ setup(
     long_description_content_type="text/markdown",
     entry_points={
         "console_scripts": [
-            "daqua = api.api:Main"
+            "daqua = daqua.api.api:Main"
         ]
     },
     options={"bdist_wheel": {"universal": True}},
