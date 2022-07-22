@@ -1,5 +1,4 @@
 import os
-
 from setuptools import setup, find_packages
 
 # Read the contents of README file
@@ -7,18 +6,19 @@ source_root = os.path.abspath(".")
 with open(os.path.join(source_root, "README.md")) as f:
     long_description = f.read()
 
-
 version = "0.0.1.1"
 
-
+print("-------------------------")
+print(find_packages("daqua"))
+print("-------------------")
 
 setup(
-    name="api",
     version=version,
+    name="daqua",
     author="",
     author_email="",
-    packages=find_packages("api"),
-    package_dir={"": "api"},
+    packages=find_packages(where="daqua"),
+    package_dir={"": "daqua"},
     url="",
     license="MIT",
     description="",
@@ -55,7 +55,7 @@ setup(
     long_description_content_type="text/markdown",
     entry_points={
         "console_scripts": [
-            "api = api.main:main"
+            "daqua = api.api:Main"
         ]
     },
     options={"bdist_wheel": {"universal": True}},

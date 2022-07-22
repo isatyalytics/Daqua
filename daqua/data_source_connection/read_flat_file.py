@@ -94,12 +94,10 @@ class ReadExcel(ReadFlatFile):
         self._n_tables = len(self._sheet_names)
         self._res_dict['num_tables'] = self._n_tables
 
-    @property
     def read_excel_file(self) -> pd.ExcelFile:
         """ Return the ExcelFile object """
         return self._excel_file
 
-    @property
     def get_sheet_names(self) -> list[str]:
         """ Return the list of sheets present in that Excel file  """
         return self._sheet_names
@@ -127,7 +125,6 @@ class ReadCSV(ReadFlatFile):
         super().__init__(file_path)
         self._df = pd.read_csv(self.file_path, engine='c', **kwargs)
 
-    @property
     def get_df(self) -> pd.DataFrame:
         """ Return the DataFrame """
         return self._df
